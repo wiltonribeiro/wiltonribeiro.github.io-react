@@ -5,6 +5,15 @@
     font-family: 'K2D', sans-serif;
 }
 
+@media only screen and (max-width: 600px) {
+    .contact-grid span{
+        margin-left: 15px;
+        font-size: 15px;
+        font-style: italic;
+        font-family: 'K2D', sans-serif;
+    }
+}
+
 .contact-grid p{
     margin-bottom: 20px;
 }
