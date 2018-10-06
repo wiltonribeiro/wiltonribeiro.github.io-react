@@ -1,0 +1,21 @@
+.about-grid{
+    background-color: #cbcbcb;
+    width: 100%;
+}
+
+.about-grid-content{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: white;
+    font-family: 'K2D', sans-serif;
+}
+
+.about-title-text{
+    font-size: 50px;
+}
+
+.about-content-text{
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 18px;
+}

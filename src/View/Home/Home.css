@@ -1,0 +1,49 @@
+.home-grid{
+    background-image: url("../../Images/back.jpg");
+    background-size: cover;
+    flex: 1;
+    width: 100%;
+    height: 100%
+}
+
+.home-welcome-grid{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'K2D', sans-serif;
+    text-align: left;
+}
+
+
+.home-welcome-text-big{
+    font-size: 70px;
+}
+
+.home-welcome-text-small{
+    margin-top: -20px;
+    font-size: 20px;
+}
+
+.home-welcome-grid p{
+    color: white;
+}
+
+.home-see-button{
+    margin-top: 10px;
+    font-size: 15px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid #e7e7e7;
+}
+
+.home-see-button:hover{
+    background-color: transparent!important;
+    color: white;
+    border: 2px solid #e7e7e7!important;
+}
+
+.home-see-button:focus{
+    background-color: transparent!important;
+    color: white;
+    border: 2px solid #e7e7e7!important;
+}
