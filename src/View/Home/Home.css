@@ -1,5 +1,5 @@
 .home-grid{
-    background-image: url("../../Images/back.jpg");
+    background-image: url("../../Images/back_2.jpg");
     background-size: cover;
     flex: 1;
     width: 100%;
@@ -29,21 +29,20 @@
 }
 
 .home-see-button{
+    margin-right: 20px;
     margin-top: 10px;
-    font-size: 15px;
-    background-color: transparent;
-    color: white;
     border: 2px solid #e7e7e7;
 }
 
-.home-see-button:hover{
+.home-see-button a{
+    color: white!important;
     background-color: transparent!important;
-    color: white;
-    border: 2px solid #e7e7e7!important;
 }
 
-.home-see-button:focus{
+.home-see-button a:hover{
     background-color: transparent!important;
-    color: white;
-    border: 2px solid #e7e7e7!important;
+}
+
+.home-see-button:active{
+    background-color: transparent!important;
 }
