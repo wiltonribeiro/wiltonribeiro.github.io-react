@@ -4,12 +4,13 @@ import './Home.css';
 import Typist from 'react-typist';
 import About from "./Sections/About/About";
 import Contact from "./Sections/Contact/Contact";
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 class Home extends Component {
     render() {
         return (
             <Grid className="home-grid">
-                <Grid className="home-welcome-grid">
+                <Grid className="home-welcome-grid center-vertical">
                     <Tab.Container id="left-tabs-example" defaultActiveKey="first">
                         <Row className="clearfix">
                             <Tab.Content animation>
@@ -30,13 +31,15 @@ class Home extends Component {
                             </Tab.Content>
 
                             <Nav bsStyle="pills" activeKey={1}>
-                                <NavItem className="home-see-button" eventKey="first">
-                                    HEY
-                                </NavItem>
                                 <NavItem className="home-see-button" eventKey="second">
                                     ABOUT ME
                                 </NavItem>
-                                <NavItem className="home-see-button" eventKey="third">
+                                <li role="presentation">
+                                    <AnchorLink className="btn-projects"  href='#projects'>
+                                        PROJECTS
+                                    </AnchorLink>
+                                </li>
+                                <NavItem  className="home-see-button" eventKey="third">
                                     CONTACT ME
                                 </NavItem>
                             </Nav>

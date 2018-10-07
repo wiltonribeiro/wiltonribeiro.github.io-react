@@ -1,0 +1,32 @@
+.projects-grid{
+    background-color: white;
+    padding-top: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .projects-carousel {
+        height: 600px;
+    }
+}
+
+
+.projects-grid span{
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.carousel-indicators li {
+    background-color: #ddd;
+}
+.carousel-indicators .active {
+    background-color: #333333;
+}
+
+.projects-carousel{
+    min-height: 500px;
+}
+
+.project-img-tech img{
+    margin-right: 10px;
+}
